@@ -23,7 +23,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 
 text = """Text analytics is the process of analyzing textual data. 
 It involves tokenization, stop word removal, stemming and lemmatization. 
