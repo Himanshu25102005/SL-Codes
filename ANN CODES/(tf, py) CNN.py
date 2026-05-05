@@ -1,14 +1,22 @@
-# Generated from: 12_Twelve.ipynb
-# Converted at: 2026-04-24T03:50:43.782Z
+# Generated from: (tf, py) CNN.ipynb
+# Converted at: 2026-05-05T02:08:10.850Z
 # Next step (optional): refactor into modules & generate tests with RunCell
 # Quick start: pip install runcell
 
-# ### ASSIGNMENT No: 12 
+# ### Assignment 12
 # 
 # Title: TensorFlow/Pytorch implementation of CNN 
 # 
-# Problem Statement:  Implement TensorFlow/Pytorch implementation of CNN 
+# Problem Statement: Implement TensorFlow/Pytorch implementation of CNN
 
+
+# !pip install numpy matplotlib tensorflow opencv-python
+
+# (Latest version upgrade)
+# !pip install -U numpy matplotlib tensorflow opencv-python
+
+#If tensorflow installation takes time
+# !pip install tensorflow-cpu
 
 import numpy as np
 import matplotlib.pyplot as plt

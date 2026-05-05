@@ -1,13 +1,24 @@
-# Generated from: 13_Thirteen.ipynb
-# Converted at: 2026-04-24T03:51:16.053Z
+# Generated from: mnist(py, tf, ker).ipynb
+# Converted at: 2026-05-05T02:07:59.484Z
 # Next step (optional): refactor into modules & generate tests with RunCell
 # Quick start: pip install runcell
 
-# ### ASSIGNMENT No: 13 
+# ### Assignment 13
 # 
 # Title: MNIST Handwritten Character Detection using PyTorch, Keras and Tensorflow 
 # 
-# Problem Statement:  Implement MNIST Handwritten Character Detection using PyTorch, Keras and Tensorflow 
+# Problem Statement: Implement MNIST Handwritten Character Detection using PyTorch, Keras and Tensorflow
+
+
+# !pip install numpy matplotlib tensorflow keras torch torchvision
+
+# (Latest version upgrade)
+# !pip install -U numpy matplotlib tensorflow keras torch torchvision
+
+#If tensorflow installation takes time
+# !pip install tensorflow-cpu
+
+# ## TensorFlow Implementation
 
 
 import numpy as np

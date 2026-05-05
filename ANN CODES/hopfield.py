@@ -1,5 +1,5 @@
-# Generated from: 09_Nine_ANN.ipynb
-# Converted at: 2026-04-24T03:48:38.546Z
+# Generated from: hopfield.ipynb
+# Converted at: 2026-05-05T02:08:22.967Z
 # Next step (optional): refactor into modules & generate tests with RunCell
 # Quick start: pip install runcell
 
@@ -7,8 +7,13 @@
 # 
 # Title: Write a python program to design a Hopfield Network which stores 4 vectors  
 # 
-# Problem Statement:  Design a Hopfield Network which stores 4 vectors  
+# Problem Statement:  Design a Hopfield Network which stores 4 vectors 
 
+
+# !pip install numpy
+
+# (Latest version upgrade)
+# !pip install -U numpy
 
 import numpy as np
 
@@ -41,7 +46,8 @@ class HopfieldNetwork:
         x = x.copy()
         
         for _ in range(steps):
-            x = np.sign(self.W @ x)
+            for i in range(len(x)):
+                x[i] = np.sign(np.dot(self.W[i], x))
         
         return x
 
@@ -51,7 +57,7 @@ model.train(patterns)
 print("Weight Matrix:\n", model.W)
 
 # slightly corrupted pattern
-test = np.array([1, -1, 1, -1])
+test = np.array([1, -1, -1, -1])
 
 print("Input:", test)
 print("\n")

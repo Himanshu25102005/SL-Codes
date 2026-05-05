@@ -1,14 +1,19 @@
-# Generated from: 08_Eight_ANN.ipynb
-# Converted at: 2026-04-24T03:48:06.563Z
+# Generated from: ART.ipynb
+# Converted at: 2026-05-05T02:08:27.425Z
 # Next step (optional): refactor into modules & generate tests with RunCell
 # Quick start: pip install runcell
 
-# ### ASSIGNMENT No: 08 
+# ### Assignment 8
 # 
-# Title: Write a python program to illustrate ART neural network.
-#  
+# Title: Write a python program to illustrate ART neural network. 
+# 
 # Problem Statement:  Implement  a python program to illustrate ART neural network.
 
+
+# !pip install numpy
+
+# (Latest version upgrade)
+# !pip install -U numpy
 
 import numpy as np
 
