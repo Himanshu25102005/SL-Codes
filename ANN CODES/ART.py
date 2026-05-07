@@ -17,7 +17,7 @@
 
 import numpy as np
 
-# 🔹 ART1 Class
+# 🔹 ART1 Classexplai
 class ART1:
     def __init__(self, vigilance=0.6):
         self.vigilance = vigilance
