@@ -1,5 +1,7 @@
 # Spotter AI — Full Stack Developer Assessment: Execution Timeline
 
+https://drive.google.com/drive/folders/15sESL8eDPJiwMsOSSwTl9YkxGuVHe-NQ?usp=sharing
+
 **Start:** 10:00 AM IST, Fri June 19, 2026
 **Target submission:** by night, Mon June 22, 2026 (IST) — this gives you a ~30hr buffer before the actual deadline (~5:44 AM IST, June 23)
 **Total runway:** ~3.5 working days, ~7–8 hrs/day
