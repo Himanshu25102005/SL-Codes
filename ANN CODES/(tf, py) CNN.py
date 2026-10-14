@@ -18,6 +18,7 @@
 #If tensorflow installation takes time
 # !pip install tensorflow-cpu
 
+import utils.session
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
